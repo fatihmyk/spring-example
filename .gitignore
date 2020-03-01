@@ -1,0 +1,5 @@
+# Project exclude paths
+/spring-boot-api-doc/target/
+/spring-datajpa-postgresql/target/
+/spring-elasticsearch/target/
+/spring-mongo-rest-api/target/
