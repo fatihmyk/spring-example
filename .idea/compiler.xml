@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-api-doc" />
-        <module name="spring-mongo-rest-api" />
+        <module name="spring-boot-aop" />
         <module name="spring-datajpa-postgresql" />
         <module name="spring-elasticsearch" />
+        <module name="spring-mongo-rest-api" />
+        <module name="spring-boot-dockerization" />
         <module name="spring-hello-world" />
         <module name="spring-boot-rabbitmq" />
       </profile>
@@ -17,7 +19,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-aop" options="-parameters" />
       <module name="spring-boot-api-doc" options="-parameters" />
+      <module name="spring-boot-dockerization" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="spring-datajpa-postgresql" options="-parameters" />
       <module name="spring-elasticsearch" options="-parameters" />
