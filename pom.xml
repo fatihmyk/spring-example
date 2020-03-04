@@ -18,6 +18,8 @@
         <module>spring-boot-dockerization</module>
         <module>spring-boot-aop</module>
         <module>spring-boot-graphql</module>
+        <module>spring-boot-rest-template</module>
+        <module>spring-redis-cache</module>
     </modules>
 
 

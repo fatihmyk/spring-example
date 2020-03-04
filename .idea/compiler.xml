@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -12,8 +13,10 @@
         <module name="spring-elasticsearch" />
         <module name="spring-mongo-rest-api" />
         <module name="spring-boot-dockerization" />
+        <module name="spring-redis-cache" />
         <module name="spring-hello-world" />
         <module name="spring-boot-graphql" />
+        <module name="spring-boot-rest-template" />
         <module name="spring-boot-rabbitmq" />
       </profile>
     </annotationProcessing>
@@ -25,9 +28,11 @@
       <module name="spring-boot-dockerization" options="-parameters" />
       <module name="spring-boot-graphql" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
+      <module name="spring-boot-rest-template" options="-parameters" />
       <module name="spring-datajpa-postgresql" options="-parameters" />
       <module name="spring-elasticsearch" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
+      <module name="spring-redis-cache" options="-parameters" />
     </option>
   </component>
 </project>
