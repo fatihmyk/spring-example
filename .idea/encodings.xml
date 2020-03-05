@@ -6,10 +6,15 @@
     <file url="file://$PROJECT_DIR$/spring-boot-api-doc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-api-doc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-dockerization/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-events/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-events/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-graphql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-pagination/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-rest-template/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-rest-template/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-websocket/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-websocket/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-datajpa-postgresql/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-elasticsearch/src/main/java" charset="UTF-8" />

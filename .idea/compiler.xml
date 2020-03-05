@@ -7,17 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-api-doc" />
-        <module name="spring-boot-aop" />
         <module name="spring-datajpa-postgresql" />
-        <module name="spring-elasticsearch" />
-        <module name="spring-mongo-rest-api" />
-        <module name="spring-boot-dockerization" />
-        <module name="spring-redis-cache" />
-        <module name="spring-hello-world" />
-        <module name="spring-boot-graphql" />
         <module name="spring-boot-rest-template" />
+        <module name="spring-boot-graphql" />
+        <module name="spring-boot-api-doc" />
+        <module name="spring-elasticsearch" />
+        <module name="spring-boot-aop" />
+        <module name="spring-hello-world" />
+        <module name="spring-boot-events" />
         <module name="spring-boot-rabbitmq" />
+        <module name="spring-boot-pagination" />
+        <module name="spring-redis-cache" />
+        <module name="spring-boot-websocket" />
+        <module name="spring-boot-dockerization" />
+        <module name="spring-mongo-rest-api" />
       </profile>
     </annotationProcessing>
   </component>
@@ -26,9 +29,12 @@
       <module name="spring-boot-aop" options="-parameters" />
       <module name="spring-boot-api-doc" options="-parameters" />
       <module name="spring-boot-dockerization" options="-parameters" />
+      <module name="spring-boot-events" options="-parameters" />
       <module name="spring-boot-graphql" options="-parameters" />
+      <module name="spring-boot-pagination" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="spring-boot-rest-template" options="-parameters" />
+      <module name="spring-boot-websocket" options="-parameters" />
       <module name="spring-datajpa-postgresql" options="-parameters" />
       <module name="spring-elasticsearch" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
