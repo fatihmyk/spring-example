@@ -9,6 +9,9 @@
     <file url="file://$PROJECT_DIR$/spring-boot-events/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-events/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-graphql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-gridfs-fileupload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-gridfs-fileupload/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-jwt/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-pagination/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-rest-template/src/main/java" charset="UTF-8" />
@@ -21,5 +24,6 @@
     <file url="file://$PROJECT_DIR$/spring-mongo-rest-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-redis-cache/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-redis-cache/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-facebook-login/src/main/java" charset="UTF-8" />
   </component>
 </project>

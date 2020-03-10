@@ -7,13 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-datajpa-postgresql" />
         <module name="spring-boot-rest-template" />
         <module name="spring-boot-graphql" />
         <module name="spring-boot-api-doc" />
+        <module name="spring-boot-gridfs-fileupload" />
+        <module name="spring-datajpa-postgresql" />
+        <module name="spring-hello-world" />
         <module name="spring-elasticsearch" />
         <module name="spring-boot-aop" />
-        <module name="spring-hello-world" />
+        <module name="spring-security-facebook-login" />
         <module name="spring-boot-events" />
         <module name="spring-boot-rabbitmq" />
         <module name="spring-boot-pagination" />
@@ -21,6 +23,7 @@
         <module name="spring-boot-websocket" />
         <module name="spring-boot-dockerization" />
         <module name="spring-mongo-rest-api" />
+        <module name="spring-boot-jwt" />
       </profile>
     </annotationProcessing>
   </component>
@@ -31,6 +34,8 @@
       <module name="spring-boot-dockerization" options="-parameters" />
       <module name="spring-boot-events" options="-parameters" />
       <module name="spring-boot-graphql" options="-parameters" />
+      <module name="spring-boot-gridfs-fileupload" options="-parameters" />
+      <module name="spring-boot-jwt" options="-parameters" />
       <module name="spring-boot-pagination" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="spring-boot-rest-template" options="-parameters" />
@@ -39,6 +44,7 @@
       <module name="spring-elasticsearch" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
       <module name="spring-redis-cache" options="-parameters" />
+      <module name="spring-security-facebook-login" options="-parameters" />
     </option>
   </component>
 </project>
