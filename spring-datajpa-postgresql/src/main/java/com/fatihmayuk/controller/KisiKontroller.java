@@ -1,4 +1,4 @@
-package com.fatihmayuk;
+package com.fatihmayuk.controller;
 
 import com.fatihmayuk.dto.KisiDto;
 import com.fatihmayuk.service.impl.KisiServiceImpl;
@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -18,7 +19,7 @@ public class KisiKontroller {
 
 
     @PostMapping
-    public ResponseEntity<KisiDto> ekle(@RequestBody KisiDto kisiDto) {
+    public ResponseEntity<KisiDto> ekle(@Valid @RequestBody KisiDto kisiDto) {
 
         return ResponseEntity.ok(kisiServiceImpl.save(kisiDto));
 

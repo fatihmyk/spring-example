@@ -12,7 +12,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.Assert;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -32,7 +31,7 @@ public class KisiServiceImpl implements KisiService {
         Kisi kisi = new Kisi();
         kisi.setAdi(kisiDto.getAdi());
         kisi.setSoyadi(kisiDto.getSoyadi());
-        kisiRepository.save(kisi);
+        final  Kisi kisiDb = kisiRepository.save(kisi);
 
         List<Adres> liste = new ArrayList<>();
         kisiDto.getAdresler().forEach(item ->{
@@ -40,18 +39,18 @@ public class KisiServiceImpl implements KisiService {
             adres.setAdres(item);
             adres.setAdresTipi(Adres.AdresTipi.DIGER);
             adres.setAktif(true);
+            adres.setKisi(kisiDb); //sonradan
             liste.add(adres);
         } );
           adresRepository.saveAll(liste);
-          kisi.setAdresleri(liste);
-          kisiDto.setId(kisi.getId());
+          //kisi.setAdresleri(liste);
+          kisiDto.setId(kisiDb.getId());
           return kisiDto;
 
     }
 
     @Override
     public void delete(Long id) {
-
     }
 
     @Override
@@ -64,7 +63,9 @@ public class KisiServiceImpl implements KisiService {
            kisiDto.setId(item.getId());
            kisiDto.setAdi(item.getAdi());
            kisiDto.setSoyadi(item.getSoyadi());
-           kisiDto.setAdresler(item.getAdresleri().stream().map(Adres::getAdres).collect(Collectors.toList()));
+           kisiDto.setAdresler(item.getAdresleri() != null ?
+                   item.getAdresleri().stream().map(Adres::getAdres).collect(Collectors.toList())
+                   : null);
            kisiDtos.add(kisiDto);
        });
         return kisiDtos;
